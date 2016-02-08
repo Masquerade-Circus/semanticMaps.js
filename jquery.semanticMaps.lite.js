@@ -1,14 +1,9 @@
 /*
- * jQuery crknMaps
+ * jQuery semanticMaps
  * Plugin creado por Masquerade Circus
  * http://masquerade-circus.net
  * Versión 0.3
- */
-/*
- * jQuery crknMaps
- * Plugin creado por Masquerade Circus
- * http://www.masquerade-circus.creaken.com
- * Versión 0.3
+ * https://github.com/Masquerade-Circus/semanticMaps.js
  */
 (function ($) {
 	"use strict";
@@ -157,11 +152,11 @@
 				zoom : a.data('zoom') || 16,
 				lat : a.data('lat') || 0,
 				lon : a.data('lon') || 0,
-				landscape: a.data('landscape'),
-				road : a.data('road'),
-				water : a.data('water'),
-				text : a.data('text'),
-				poi : a.data('poi'),
+				landscape: a.data('landscape') || 'E9E5DC',
+				road : a.data('road') || 'FFFFFF',
+				water : a.data('water') || '8CB5FD',
+				text : a.data('text') || '32281E',
+				poi : a.data('poi') || 'F4F3EB',
 				markers : $('.marker', a),
 				searchBox : a.data('searchbox') || false
 			},
